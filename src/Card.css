@@ -1,0 +1,42 @@
+.Card{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+.container{
+    
+margin: 50px 0 !important;
+
+}
+.card_text{
+
+    text-align: left;
+
+    
+}
+.infected{
+border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+
+margin-right: 10px !important;
+}
+.Card__recovered{
+border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+
+
+}
+.Card__deaths{
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+    margin-left: 10px !important;
+
+}
+
+.infected:hover {
+    border-bottom: 10px solid rgba(0, 0, 255);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-out;
+
+
+
+}
