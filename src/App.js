@@ -3,7 +3,7 @@ import Cards from './Cards';
 import Chart from './Chart'
 import Countrypicker from './Countrypicker';
 import './App.css';
-import { fetchData } from './components/api/api';
+import { fetchData } from './api';
 
 class  App extends React.Component  {
 
@@ -23,8 +23,9 @@ this.setState({ data: fetchedData });
   return (
     <div className="App">
      <Cards data={data} />
-     <Chart />
      <Countrypicker />
+
+     <Chart />
     </div>
   );
 }

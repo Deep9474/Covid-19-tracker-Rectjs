@@ -1,8 +1,6 @@
-.Card{
+.card{
 
-    display: flex;
-    flex-direction: column;
-
+    margin: 0% 2% !important;
 
 }
 .container{
@@ -10,33 +8,27 @@
 margin: 50px 0 !important;
 
 }
-.card_text{
 
-    text-align: left;
-
-    
-}
 .infected{
 border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+margin: 0% 2% !important;
 
-margin-right: 10px !important;
 }
-.Card__recovered{
+.recovered{
 border-bottom: 10px solid rgba(0, 255, 0, 0.5);
 
+margin: 0% 2% !important;
 
 }
-.Card__deaths{
+.deaths{
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
-    margin-left: 10px !important;
+    margin: 0% 2% !important;
 
 }
-
+/*
 .infected:hover {
     border-bottom: 10px solid rgba(0, 0, 255);
     transform: translateY(-5px);
     transition: all 0.3s ease-out;
-
-
-
 }
+*/
