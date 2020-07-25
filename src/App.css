@@ -2,9 +2,13 @@
     background-color: rgb(250, 250,250);
 }
 
-.App{
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.covid{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }

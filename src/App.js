@@ -21,7 +21,10 @@ this.setState({ data: fetchedData });
     const { data } = this.state;
 
   return (
-    <div className="App">
+    <div className="container">
+      <div className="covid">
+        <h1>COVID-19 Tracker</h1>
+      </div>
      <Cards data={data} />
      <Countrypicker />
 
