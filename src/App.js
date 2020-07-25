@@ -23,7 +23,11 @@ this.setState({ data: fetchedData });
   return (
     <div className="container">
       <div className="covid">
-        <h1>COVID-19 Tracker</h1>
+        <h1>C</h1>
+        <img src="https://img.icons8.com/fluent/48/000000/virus.png"/>
+        <h1>VID-19</h1>
+        
+        
       </div>
      <Cards data={data} />
      <Countrypicker />
