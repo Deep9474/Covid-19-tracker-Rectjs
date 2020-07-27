@@ -30,8 +30,21 @@ margin: 5% 2% !important;
 
 }
 
-.infected:hover {
-    border-bottom: 10px solid rgba(0, 0, 255);
+
+
+.infected:hover  {
+    border-bottom: 10px solid rgb(0, 0, 255);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-out;
+    
+}
+.recovered:hover {
+    border-bottom: 10px solid rgb(0, 255, 0);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-out;
+}
+.deaths:hover {
+    border-bottom: 10px solid rgb(255, 0, 0);
     transform: translateY(-5px);
     transition: all 0.3s ease-out;
 }
