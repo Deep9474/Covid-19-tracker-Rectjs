@@ -10,7 +10,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         <div className="container__card">
 
             <Grid container spacing={3} justify="center">
-                    <Grid item component={Card} xs={12} lg={3} md={3} className="infected">
+                    <Grid item component={Card} xs={12}  md={3} className="infected">
                     <div className="card">
 
                         <CardContent className="card_text">
@@ -25,7 +25,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 
                     </Grid>
 
-                <Grid item component={Card} xs={12} lg={3} md={3}  className="recovered">
+                <Grid item component={Card} xs={12}  md={3}  className="recovered">
                 <div className="card">
 
 
@@ -42,7 +42,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 
                     </Grid>
 
-                <Grid item component={Card} xs={12} lg={3} md={3}  className="deaths">
+                <Grid item component={Card} xs={12} md={3}  className="deaths">
                 <div className="card">
 
                         <CardContent className="card_text">

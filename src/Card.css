@@ -9,30 +9,29 @@ margin: 25px 0 ;
 display: flex;
 align-items: center;
 width: 80%;
-
+margin-bottom: 80px !important;
 
 }
 
 .infected{
 border-bottom: 10px solid rgba(0, 0, 255, 0.5);
-margin: 2% 2% !important;
+margin: 5% 2% !important;
 
 }
 .recovered{
 border-bottom: 10px solid rgba(0, 255, 0, 0.5);
-margin: 2% 2% !important;
+margin: 5% 2% !important;
 
 
 }
 .deaths{
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
-    margin: 2% 2% !important;
+    margin: 5% 2% !important;
 
 }
-/*
+
 .infected:hover {
     border-bottom: 10px solid rgba(0, 0, 255);
     transform: translateY(-5px);
     transition: all 0.3s ease-out;
 }
-*/
