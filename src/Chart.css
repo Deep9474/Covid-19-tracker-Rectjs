@@ -1,6 +1,6 @@
 .container__chart{
     display: flex;
     justify-content: center;
-    width: 60% !important;
+    width: 85% !important;
     margin-top: 80px !important;
 }
